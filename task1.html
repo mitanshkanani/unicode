@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mitansh Kanani">
+    <meta name="description" content="Discover exciting events happening in Mumbai">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="icon.jpg" type="image/x-icon">
+    <title>EventJunction</title>  
+</head>
+<body>
+    <header>
+        <h1>EventJunction</h1>
+        <p>Discover exciting events happening in Mumbai</p>
+    </header>
+    <div class="container">
+        <form action="https://httpbin.org/get" method="get">
+            <label for="events">Select an event:</label>
+            <select name="list_of_events" id="events">
+                <option value="HopAndPop">HopAndPop</option>
+                <option value="ColorMania">Color Mania</option>
+                <option value="Funfest">Funfest</option>
+                <option value="TheGreatRaceOdyssey">The Great Race Odyssey</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+        <div class="event">
+            <h2>HopAndPop</h2>
+            <a href="Event1.html"><img src="event1.jpg" alt="HopAndPop"></a>
+        </div>
+        <div class="event">
+            <h2>Color Mania</h2>
+            <a href="Event2.html"><img src="event2.jpg" alt="Color Mania"></a>
+        </div>
+        <div class="event">
+            <h2>Funfest</h2>
+            <a href="event3.html"><img src="event3.jpg" alt="Funfest"></a>
+        </div>
+        <div class="event">
+            <h2>The Great Race Odyssey</h2>
+            <a href="event4.html"><img src="event4.jpg" alt="The Great Race Odyssey"></a>
+        </div>
+    </div>   
+</body>
+</html>

@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mitansh Kanani">
+    <meta name="description" content="Discover and Register for Exciting Events in Mumbai">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" href="reg.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mumbai Events</h1>
+        <p>Discover and Register for Exciting Events in Mumbai</p>
+    </header>
+
+    <div class="regi">
+        <form action="https://httpbin.org/get" method="get">
+            <label for="eventName">Event Name:</label>
+            <select name="eventName" id="eventName">
+                <option value="HopAndPop">HopAndPop</option>
+                <option value="ColorMania">Color Mania</option>
+                <option value="Funfest">Funfest</option>
+                <option value="TheGreatRaceOdyssey">The Great Race Odyssey</option>
+            </select>
+
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName">
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" id="lastName">
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="text" name="phoneNumber" id="phoneNumber">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="amount">Amount of tickets:</label>
+            <input type="text" name="amount" id="amount">
+
+            <label for="eventDate">Event Date:</label>
+            <input type="date" name="eventDate" id="eventDate">
+
+            <label for="paymentMethod">Payment Method:</label>
+            <select name="paymentMethod" id="paymentMethod">
+                <option value="CreditCard">Credit Card</option>
+                <option value="PayPal">PayPal</option>
+                <option value="BankTransfer">Bank Transfer</option>
+            </select>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+   
+</body>
+</html>
+
+
